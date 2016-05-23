@@ -289,12 +289,24 @@ section.success a.active {
     width: 44rem;  
 }
 
+.project-details {
+    font-size: 2rem;
+    text-align: left;
+}
+
 #icymi_video {
     height: 35rem;
     width: 55rem;
     /*border:5px solid black;*/
     position: relative;
     left: 2rem;
+}
+
+.contact-list-item {
+    padding-left: 12rem;
+    padding-right: 12rem;
+    height: 15rem;
+    width: 15rem;
 }
 
 #portfolio .portfolio-item {

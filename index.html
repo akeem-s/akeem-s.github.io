@@ -132,7 +132,7 @@
                     </a>
                 </div>
 
-                <!-- <div class="col-sm-4 portfolio-item">
+                <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -142,7 +142,7 @@
                         <img src="img/portfolio/game.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <!-- <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -238,9 +238,15 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
+                    <ul class="list-inline">
+                        <a href="mailto:akeemstreet@gmail.com"> <i class="fa fa-envelope-o fa-3x contact-list-item"> </i> </a>
+                        <a href="https://www.linkedin.com/in/akstreet"> <i class="fa fa-linkedin fa-3x contact-list-item"></i></a>
+                        <a href="https://github.com/akeem-s"><i class="fa fa-github fa-3x contact-list-item"></i></a>
+                    </ul>
+
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <!-- <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Name</label>
@@ -277,14 +283,14 @@
                                 <button type="submit" class="btn btn-success btn-lg">Send</button>
                             </div>
                         </div>
-                    </form>
+                    </form> -->
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="text-center">
+    <!-- <footer class="text-center">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
@@ -299,6 +305,8 @@
                                 <a href="https://www.linkedin.com/in/akstreet" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                         </ul>
+
+                        
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>My Email</h3>
@@ -316,7 +324,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top page-scroll visible-xs visible-sm">
@@ -340,14 +348,18 @@
                         <div class="modal-body">
                             <h2>ICYMI</h2>
                             <h3>In Case You Missed It</h3>
-                            <h5>IOS App Preview Video</h5>
+                            <h5>Click Below for Video Preview!</h5>
                             <hr class="star-primary">
-                            <!-- <img src="img/icymi_2.png" class="img-responsive img-centered" alt=""> -->
-                            <video id="icymi_video" controls>
+                            <a href="http://johnmaguiredeveloper.com/ICYMI_site/"><img src="img/icymi_2.png" class="img-responsive img-centered" alt=""></a>
+                            
+                            <!-- <video id="icymi_video" controls>
   <source src="img/icymi.mp4"  type="video/mp4">
 Your browser does not support the video tag.
 </video>                    <p>
-                            ICYMI is an IOS app, coming soon to the apple app store, that compiles a list of all the places a user passes for each day by using their phones built in GPS in combination with the Google Places API. Places are stored for two days, unless you have favorited a place. Check out the preview video above!</p>
+            -->                 <p class="project-details">ICYMI is an IOS app, coming soon to the apple app store, that compiles a list of all the places a user passes for each day by using their phones built in GPS in combination with the Google Places API. Places are stored for two days, unless you have favorited a place.</p>
+            <br>
+            <p class="project-details">The front end was built with React Native. The back end was built with a Rails API, the Google Places Maps API and the Google Places API. Check out the <a href="https://github.com/nyc-sea-lions-2016/Incase_Frontend">Front End Repo</a> and <a href="https://github.com/akeem-s/ICYMI_backend">Back End Repo</a></p>
+            
                             <ul class="list-inline item-details">
                                 <!-- <li>Client:
                                     <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
@@ -382,13 +394,15 @@ Your browser does not support the video tag.
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Yoda Know</h2>
+                            <h3>Star Wars Themed Stack Overflow Clone</h3>
+                            <h5>Click Below to Check out the Site!</h5>
                             <hr class="star-primary">
                             <a href="http://yodaknow.club/"><img src="img/portfolio/yoda_2.png" class="img-responsive img-centered" alt=""></a>
                             
-                            <p>Yoda Know is a Star Wars themed Stack Overflow Clone built with a Sinatra back end and jQuery/AJAX on the front end.</p>
+                            <p class="project-details">Yoda Know is a Star Wars themed Stack Overflow Clone built with a Sinatra back end and jQuery/AJAX on the front end.</p>
                             <br>
                             <br>
-                            <p>Click the photo above to check the site out!</p>
+                            <p class="project-details">Click the photo above to check the site. You can view the repo on Github <a href="https://github.com/nyc-sea-lions-2016/AJA_overflow">here</a>.</p>
                             
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
